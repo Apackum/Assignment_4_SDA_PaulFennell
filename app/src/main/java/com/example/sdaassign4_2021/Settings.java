@@ -90,7 +90,7 @@ public class Settings extends Fragment {
         String borInput = userBorId.getText().toString();
 //
 //
-        //
+
         if(!emailInput.isEmpty() && Patterns.EMAIL_ADDRESS.matcher(emailInput).matches() && !nameInput.isEmpty() && !borInput.isEmpty()){
             Toast.makeText(getContext(),"Email Verified",Toast.LENGTH_SHORT).show();
             Log.d("Test 4", "verifyEmailAddress: Passed ");
